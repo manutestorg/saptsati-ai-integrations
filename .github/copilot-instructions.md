@@ -1,7 +1,7 @@
 # Saptsati AI Integrations - Copilot Instructions
 
 ## Project Overview
-A marketing website for Saptsati, an AI integration services company. Built with **Vite + React + TypeScript + shadcn/ui + Tailwind CSS**. This is a Lovable.dev-generated project optimized for rapid development with AI assistance.
+A marketing website for Saptsati, an AI integration services company. Built with **Vite + React + TypeScript + shadcn/ui + Tailwind CSS**.
 
 ## Architecture & Key Decisions
 
@@ -136,4 +136,3 @@ When adding new shadcn components, they auto-install to `src/components/ui/`. Co
 ## Performance Considerations
 - Vite uses SWC for faster builds (see `@vitejs/plugin-react-swc`)
 - Code splitting happens automatically via dynamic imports
-- `lovable-tagger` plugin only runs in development mode
