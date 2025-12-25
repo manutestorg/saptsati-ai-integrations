@@ -30,9 +30,11 @@ const CTASection = () => {
               Schedule Consultation
               <ArrowRight className="w-5 h-5" />
             </Button>
-            <Button variant="heroOutline" size="xl">
-              <Mail className="w-5 h-5" />
-              Contact Us
+            <Button variant="heroOutline" size="xl" asChild>
+              <a href="mailto:saptsati@outlook.com">
+                <Mail className="w-5 h-5" />
+                Contact Us
+              </a>
             </Button>
           </div>
 
