@@ -1,13 +1,32 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Helmet } from "react-helmet-async";
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import ServicesSection from "@/components/ServicesSection";
+import BenefitsSection from "@/components/BenefitsSection";
+import CTASection from "@/components/CTASection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <>
+      <Helmet>
+        <title>Saptsati - AI Integration Services for Enterprise Productivity</title>
+        <meta
+          name="description"
+          content="Saptsati helps enterprises integrate world-class AI models to transform workflows, boost productivity, and drive innovation. Expert AI consulting and implementation."
+        />
+        <meta name="keywords" content="AI integration, AI services, enterprise AI, productivity, machine learning, automation" />
+      </Helmet>
+
+      <main className="min-h-screen bg-background">
+        <Navbar />
+        <HeroSection />
+        <ServicesSection />
+        <BenefitsSection />
+        <CTASection />
+        <Footer />
+      </main>
+    </>
   );
 };
 
