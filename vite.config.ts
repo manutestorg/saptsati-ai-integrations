@@ -4,7 +4,8 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/saptsati-ai-integrations/" : "/",
+  // Custom domain serves the site at root, so keep base as "/"
+  base: "/",
   server: {
     host: "::",
     port: 8080,
