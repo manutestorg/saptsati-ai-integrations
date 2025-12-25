@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/saptsati/" : "/",
+  base: mode === "production" ? "/saptsati-ai-integrations/" : "/",
   server: {
     host: "::",
     port: 8080,
