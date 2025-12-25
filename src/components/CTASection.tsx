@@ -26,9 +26,13 @@ const CTASection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button variant="hero" size="xl">
-              Schedule Consultation
-              <ArrowRight className="w-5 h-5" />
+            <Button variant="hero" size="xl" asChild>
+              <a
+                href="mailto:saptsati@outlook.com?subject=Saptsati%20Consultation%20Request&body=Hello%20Saptsati%20Team,%0A%0AI'd%20like%20to%20schedule%20a%20consultation.%0A%0AName:%20%0ACompany:%20%0APreferred%20Date/Time%20(with%20timezone):%20%0AMeeting%20Duration:%2030/60%20min%0AAgenda%20/%20Goals:%20%0A%0AThanks,%0A[Your%20Name]"
+              >
+                Schedule Consultation
+                <ArrowRight className="w-5 h-5" />
+              </a>
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
               <a href="mailto:saptsati@outlook.com">
