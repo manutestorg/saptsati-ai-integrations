@@ -1,53 +1,65 @@
-# Welcome to your Lovable project
+# Saptsati - AI Integration Services
 
-## Project info
+Saptsati is a leading provider of enterprise AI integration solutions. We help businesses transform their workflows, boost productivity, and drive innovation through world-class AI model integrations.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## About Us
 
-## How can I edit this code?
+At Saptsati, we specialize in seamlessly integrating cutting-edge AI technologies into your existing business processes. Our expert team works with enterprises to identify opportunities, design solutions, and implement AI systems that deliver measurable impact.
 
-There are several ways of editing your application.
+## What We Do
 
-**Use Lovable**
+- **AI Model Integration**: Integrate leading AI models into your applications and workflows
+- **Enterprise Solutions**: Custom AI solutions tailored to your business needs
+- **Workflow Optimization**: Streamline processes with intelligent automation
+- **Productivity Enhancement**: Boost team efficiency with AI-powered tools
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+This is a React + TypeScript + Vite project for the Saptsati marketing website.
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js & npm - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd saptsati-ai-integrations
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The site will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Build for Production
 
-**Use GitHub Codespaces**
+```sh
+npm run build
+npm run preview
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
+## Deployment
+
+This project is deployed to GitHub Pages via GitHub Actions. Every push to the `main` branch automatically triggers a build and deployment.
+
+**Live Site**: https://saptsati.com/saptsati-ai-integrations/
+
+## Tech Stack
+
+- **React** - UI framework
+- **TypeScript** - Type safety
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **shadcn/ui** - Component library
+- **Framer Motion** - Animations
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
 ## What technologies are used for this project?
